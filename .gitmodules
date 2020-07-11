@@ -1,0 +1,3 @@
+[submodule "bwdykit.Template"]
+	path = bwdykit.Template
+	url = https://github.com/bwdy/bwdykit.Template

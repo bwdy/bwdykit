@@ -3,18 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bwdykit", "bwdykit\bwdykit.csproj", "{5E2FCB20-5CBC-4702-8F0A-9B0D9DD16EA7}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "bwdykit", "bwdykit\bwdykit.shproj", "{25460F57-4C6B-4DE8-8B46-852C842DF811}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E2FCB20-5CBC-4702-8F0A-9B0D9DD16EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E2FCB20-5CBC-4702-8F0A-9B0D9DD16EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E2FCB20-5CBC-4702-8F0A-9B0D9DD16EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E2FCB20-5CBC-4702-8F0A-9B0D9DD16EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		bwdykit\bwdykit.projitems*{25460f57-4c6b-4de8-8b46-852c842df811}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
