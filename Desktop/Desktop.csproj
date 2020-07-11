@@ -7,6 +7,6 @@
 
   <Import Project="..\bwdykit\bwdykit.projitems" Label="Shared" />
 
-  <Import Project="..\bwdykit.Template\Template\Template.projitems" Label="Shared" />
+  <Import Project="..\bwdykit.Template\Game\Game.projitems" Label="Shared" />
 
 </Project>
