@@ -5,7 +5,17 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desktop", "Desktop\Desktop.csproj", "{37B3EDFE-ACC4-41DB-9173-358BE07D115D}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "bwdykit", "bwdykit\bwdykit.shproj", "{25460F57-4C6B-4DE8-8B46-852C842DF811}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Template", "bwdykit.Template\Template\Template.shproj", "{01036B2E-01B7-4D39-BC4B-E069BC2AEC99}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		bwdykit.Template\Template\Template.projitems*{01036b2e-01b7-4d39-bc4b-e069bc2aec99}*SharedItemsImports = 13
+		bwdykit\bwdykit.projitems*{25460f57-4c6b-4de8-8b46-852c842df811}*SharedItemsImports = 13
+		bwdykit.Template\Template\Template.projitems*{37b3edfe-acc4-41db-9173-358be07d115d}*SharedItemsImports = 5
+		bwdykit\bwdykit.projitems*{37b3edfe-acc4-41db-9173-358be07d115d}*SharedItemsImports = 5
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

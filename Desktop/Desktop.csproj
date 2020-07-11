@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <Import Project="..\bwdykit\bwdykit.projitems" Label="Shared" />
+
+  <Import Project="..\bwdykit.Template\Template\Template.projitems" Label="Shared" />
+
 </Project>

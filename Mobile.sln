@@ -7,7 +7,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Android", "Android\Android.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS", "iOS\iOS.csproj", "{15B14190-5793-42EC-A54D-EFC629F84D53}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "bwdykit", "bwdykit\bwdykit.shproj", "{25460F57-4C6B-4DE8-8B46-852C842DF811}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Template", "bwdykit.Template\Template\Template.shproj", "{01036B2E-01B7-4D39-BC4B-E069BC2AEC99}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		bwdykit.Template\Template\Template.projitems*{01036b2e-01b7-4d39-bc4b-e069bc2aec99}*SharedItemsImports = 13
+		bwdykit.Template\Template\Template.projitems*{15b14190-5793-42ec-a54d-efc629f84d53}*SharedItemsImports = 4
+		bwdykit\bwdykit.projitems*{15b14190-5793-42ec-a54d-efc629f84d53}*SharedItemsImports = 4
+		bwdykit\bwdykit.projitems*{25460f57-4c6b-4de8-8b46-852c842df811}*SharedItemsImports = 13
+		bwdykit.Template\Template\Template.projitems*{386403c4-58f7-4e72-92d6-7dcdf052bc22}*SharedItemsImports = 4
+		bwdykit\bwdykit.projitems*{386403c4-58f7-4e72-92d6-7dcdf052bc22}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|iPhone = Debug|iPhone
